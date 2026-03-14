@@ -20,6 +20,9 @@ import com.notesapp.viewmodel.NoteEvent
 import com.notesapp.viewmodel.NotesViewModel
 import com.notesapp.viewmodel.NotesViewModelFactory
 
+/**
+ * Fragment that displays the detail of a note.
+ */
 class DetailFragment : Fragment() {
 
     private var _binding: FragmentDetailBinding? = null
