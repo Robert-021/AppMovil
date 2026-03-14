@@ -14,6 +14,7 @@ import com.notesapp.databinding.ActivityMainBinding
 import com.notesapp.viewmodel.NotesViewModel
 import com.notesapp.viewmodel.NotesViewModelFactory
 
+// Main activity that hosts the navigation graph
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
