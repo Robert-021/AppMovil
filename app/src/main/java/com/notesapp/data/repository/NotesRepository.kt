@@ -8,6 +8,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
+// Repository for managing notes data from local and remote sources
 class NotesRepository(
     private val noteDao: NoteDao,
     private val firebaseService: FirebaseNotesService = FirebaseNotesService()
