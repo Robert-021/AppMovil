@@ -25,6 +25,9 @@ import com.notesapp.viewmodel.NoteEvent
 import com.notesapp.viewmodel.NotesViewModel
 import com.notesapp.viewmodel.NotesViewModelFactory
 
+/**
+ * Fragment that displays the list of notes.
+ */
 class NotesFragment : Fragment() {
 
     private var _binding: FragmentNotesBinding? = null
